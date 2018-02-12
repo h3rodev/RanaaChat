@@ -2,7 +2,7 @@
   "name": "RanaaChat",
   "version": "1.0.0",
   "description": "Simple WebRTC WebApp Chat",
-  "main": "index.js",
+  "main": "index.html",
   "engines": {
     "node": "6.2.0"
   },
