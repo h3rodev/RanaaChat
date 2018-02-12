@@ -9,13 +9,16 @@
   <body>
     <div class="container">
       <div class="card">
-
-        <video id="localVideo" autoplay muted style="width:40%;"></video>
-        <video id="remoteVideo" autoplay style="width:40%;"></video>
+        <div class="embed-responsive embed-responsive-16by9">
+          <video  class="embed-responsive-item" id="localVideo" autoplay muted></video>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+          <video  class="embed-responsive-item" id="remoteVideo" autoplay></video>
+        </div>
 
         <br />
 
-        <input type="button" id="start" onclick="start(true)" value="Start Video"></input>
+        <input class="btn btn-primary btr-block" type="button" id="start" onclick="start(true)" value="Start Video"></input>
       </div>
     </div>
 
