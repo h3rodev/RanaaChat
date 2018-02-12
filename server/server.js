@@ -1,4 +1,4 @@
-const HTTPS_PORT = 8080;
+const HTTPS_PORT = ${ PORT };
 
 const fs = require('fs');
 const https = require('https');
