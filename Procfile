@@ -1,1 +1,1 @@
-web node server/webrtc.js
+web node server.js
